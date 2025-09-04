@@ -46,7 +46,7 @@ services:
       - ./config/nodes/rpcnode:/opt/besu/keys
       - ./logs/besu:/tmp/besu
     ports:
-      - 8545:8545/tcp
+    - 8080:8545/tcp
       - 8546:8546/tcp
     networks:
       quorum-dev-quickstart:
@@ -73,7 +73,7 @@ services:
     depends_on:
       - rpcnode
     ports:
-      - 25000:25000/tcp
+    - 25001:25001/tcp
     networks:
       quorum-dev-quickstart:
         ipv4_address: 172.16.239.31
