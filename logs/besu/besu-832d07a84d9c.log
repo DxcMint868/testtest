@@ -1,0 +1,34 @@
+{"timestamp":"2025-08-03T08:09:11,487","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu","throwable":""}
+{"timestamp":"2025-08-03T08:09:13,583","container":"832d07a84d9c","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price has been ignored because --miner-enabled was not defined on the command line.","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,197","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"
+####################################################################################################
+#                                                                                                  #
+# Besu version 23.4.1                                                                              #
+#                                                                                                  #
+# Configuration:                                                                                   #
+# Network: Custom genesis file specified                                                           #
+# Network Id: 1337                                                                                 #
+# Data storage: Forest                                                                             #
+# Sync mode: Full                                                                                  #
+# RPC HTTP APIs: WEB3,ETH,NET,TRACE,DEBUG,ADMIN,TXPOOL,PERM,CLIQUE                                 #
+# RPC HTTP port: 8545                                                                              #
+#                                                                                                  #
+# Host:                                                                                            #
+# Java: openjdk-java-17                                                                            #
+# Maximum heap size: 0.23 GB                                                                       #
+# OS: linux-x86_64                                                                                 #
+# glibc: 2.35                                                                                      #
+# jemalloc: 5.2.1-0-gea6b3e973b477b8061e0076bb257dbd7f3faa756                                      #
+# Total memory: 0.93 GB                                                                            #
+# CPU cores: 1                                                                                     #
+#                                                                                                  #
+####################################################################################################","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,199","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,199","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,286","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Using the native implementation of alt bn128","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,368","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Using the native implementation of modexp","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,370","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Using the native implementation of the signature algorithm","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,378","container":"832d07a84d9c","level":"INFO","thread":"main","class":"Besu","message":"Using the native implementation of the blake2bf algorithm","throwable":""}
+{"timestamp":"2025-08-03T08:09:15,438","container":"832d07a84d9c","level":"INFO","thread":"main","class":"RocksDBKeyValueStorageFactory","message":"No existing database detected at /opt/besu/data. Using version 1","throwable":""}
+{"timestamp":"2025-08-03T08:09:16,709","container":"832d07a84d9c","level":"INFO","thread":"main","class":"KeyPairUtil","message":"Loaded public key 0x86fcc16f4730fbfd238dc17ea552854c0943923bb1d5e886e5601b8d884fb0519060e0023f495dd24ffe60a65660fb7fdcdebfceedd2b3673dfa63658825924b from /opt/besu/keys/nodekey","throwable":""}
+{"timestamp":"2025-08-03T08:09:17,148","container":"832d07a84d9c","level":"INFO","thread":"main","class":"ProtocolScheduleBuilder","message":"Protocol schedule created with milestones: [London: 0]","throwable":""}
